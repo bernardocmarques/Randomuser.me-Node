@@ -1,6 +1,6 @@
 (function() {
   if (document.title.indexOf('home') !== -1) {
-    var result = pegasus('https://randomuser.me/api/?randomapi');
+    var result = pegasus('/api/?randomapi');
     result.then(function(data) {
       error(data);
     },function (data) {

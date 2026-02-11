@@ -181,8 +181,8 @@ class Generator {
             id = range(0, 9);
             genderText = 'lego';
         }
-        let base = 'https://randomuser.me/api/';
-    
+        let base = '/api/';
+
         this.include('picture', {
           large: base + 'portraits/' + genderText + '/' + id + '.jpg',
           medium: base + 'portraits/med/' + genderText + '/' + id + '.jpg',

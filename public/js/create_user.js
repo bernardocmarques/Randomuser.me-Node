@@ -32,7 +32,7 @@ function getNewUser(){
     lego = "&lego";
   }
 
-  var result = pegasus('https://randomuser.me/api/?nat=us&randomapi' + lego);
+  var result = pegasus('/api/?nat=us&randomapi' + lego);
 
   result.then(function(data) {
     if (!data['error']){
